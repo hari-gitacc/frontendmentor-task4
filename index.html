@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script type="module" crossorigin src="/FM-PRJ-4/assets/index-c03d86ac.js"></script>
+    <link rel="stylesheet" href="/FM-PRJ-4/assets/index-2787529d.css">
+  </head>
+  <body>
+    <!-- home section -->
+    <section
+      class="h-screen font-Josefin-Sans bg-hero bg-no-repeat bg-center bg-cover"
+    >
+      <div id="topbar" class="transition-all ease-in duration-300 lg:mx-[4rem]">
+        <div
+          class="h-[20vh] mx-[1.4rem] lg:py-[2rem] flex items-center justify-between"
+        >
+          <div>
+            <img
+              class="w-[125px] sm:w-[200px] lg:w-[230px]"
+              src="/FM-PRJ-4/assets/logo-61f423a9.svg"
+            />
+          </div>
+
+          <div>
+            <img
+              class="cursor-pointer z-30 sm:hidden"
+              id="bars"
+              src="/FM-PRJ-4/assets/icon-hamburger-bd99afbb.svg"
+              alt=""
+            />
+            <img
+              id="cls"
+              class="cursor-pointer z-10 hidden sm:hidden"
+              src="/FM-PRJ-4/assets/icon-close-60439ea9.svg"
+              alt=""
+            />
+          </div>
+
+          <ul
+            class="capitalize items-center justify-evenly sm:justify-between sm:w-[50%] hidden sm:text-center font-alata sm:flex text-white font-normal text-sm"
+          >
+            <li class="w-[200px]">
+              <a
+                class="cursor-pointer hover:tracking-widest transition-all duration-200 text-white capitalize"
+                href="#"
+                >about</a
+              >
+            </li>
+            <li class="w-[200px]">
+              <a
+                class="cursor-pointer hover:tracking-widest transition-all duration-200 text-white capitalize"
+                href="#"
+                >careers</a
+              >
+            </li>
+            <li class="w-[200px]">
+              <a
+                class="cursor-pointer hover:tracking-widest transition-all duration-200 text-white capitalize"
+                href="#"
+                >events</a
+              >
+            </li>
+            <li class="w-[200px]">
+              <a
+                class="cursor-pointer hover:tracking-widest transition-all duration-200 text-white capitalize"
+                href="#"
+                >products</a
+              >
+            </li>
+            <li class="w-[200px]">
+              <a
+                class="cursor-pointer hover:tracking-widest transition-all duration-200 text-white capitalize"
+                href="#"
+                >support</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="h-[80vh] m-auto lg:justify-start w-full flex sm:justify-start justify-center items-center"
+        >
+          <h1
+            class="text-4xl lg:w-[60%] lg:pt-8 sm:w-[70%] sm:h-[290px] sm:text-[4rem] sm:leading-none sm:justify-start sm:mb-0 mb-16 w-full mx-[1rem] lg:h-[280px] leading-[3rem] font-thin flex lg:leading-none items-center justify-center uppercase text-white border-solid border-2 p-[1rem] border-white"
+          >
+            immersive experiences that deliver
+          </h1>
+        </div>
+      </div>
+      <ul
+        class="capitalize sm:hidden opacity-0 transition-all ease-in duration-300 backdrop-blur-md absolute items-center justify-evenly bottom-0 w-[100%] h-[80vh] -z-0 flex flex-col text-white font-semibold text-sm"
+      >
+        <li>
+          <a
+            class="cursor-pointer hover:tracking-widest text-white capitalize transition-all duration-200"
+            href="#"
+            >about</a
+          >
+        </li>
+        <li>
+          <a
+            class="cursor-pointer hover:tracking-widest text-white capitalize transition-all duration-200"
+            href="#"
+            >careers</a
+          >
+        </li>
+        <li>
+          <a
+            class="cursor-pointer hover:tracking-widest text-white capitalize transition-all duration-200"
+            href="#"
+            >events</a
+          >
+        </li>
+        <li>
+          <a
+            class="cursor-pointer hover:tracking-widest text-white capitalize transition-all duration-200"
+            href="#"
+            >products</a
+          >
+        </li>
+        <li>
+          <a
+            class="cursor-pointer hover:tracking-widest text-white capitalize transition-all duration-200"
+            href="#"
+            >support</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- description -->
+    <section
+      class="bg-white lg:hidden mt-[4rem] md:mt-0 xl:pl-[4rem] sm:min-h-[100vh] sm:flex lg:justify-evenly lg:ml-0 sm:ml-8"
+    >
+      <div
+        class="sm:w-[70%] lg:pl-[0rem] sm:pl-[0rem] md:pl-[3rem] lg:justify-start sm:mt-[4rem] m-[1rem] sm:flex sm:justify-start sm:relative"
+      >
+        <img
+          class="sm:w-[450px] lg:h-[380px] lg:w-[500px] md:h-[300px] sm:h-[240px]"
+          src="./images/mobile/image-interactive.jpg"
+          alt="img"
+        />
+        <div
+          class="flex md:left-[24rem] xl: bg-white flex-col sm:absolute sm:w-[330px] lg:ml-[5rem] sm:h-auto sm:top-[130px] sm:left-[230px] lg:absolute sm:p-[2rem] lg:top-48 lg:w-[450px] lg:left-[17rem] lg:h-[350px] items-center justify-center lg:px-[2rem] lg:py-0 py-[1rem]"
+        >
+          <h1
+            class="sm:text-[1.6rem] font-Josefin-Sans font-thin text-3xl lg:w-[300px] text-center"
+          >
+            THE LEADER IN INTERACTIVE VR
+          </h1>
+          <p
+            class="text-sm mt-[1rem] text-center font-alata text-gray-500 font-semibold"
+          >
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="lg:max-w-[1080px] lg:h-[85vh] lg:mt-[5rem] lg:mx-auto hidden lg:flex"
+    >
+      <div class="text-center items-baseline flex">
+        <div>
+          <img
+            class="lg:ml-[5rem] lg:h-[390px]"
+            src="/FM-PRJ-4/assets/image-interactive-9421aea3.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="lg:w-[600px] pt-[4rem] translate-y-[-10rem] translate-x-[-3rem] p-[3rem] bg-white"
+        >
+          <h1 class="font-Josefin-Sans text-[2rem] mb-4 font-thin">
+            THE LEADER IN INTERACTIVE VR
+          </h1>
+          <p class="text-gray-500 font-alata text-[.8rem]">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our creation -->
+    <section
+      class="mt-[2.3rem] font-Josefin-Sans mb-[4rem] xl:mt-0 lg:mt-[8rem] lg:px-[2.9rem]"
+    >
+      <div class="mx-[2rem] text-black my-[1rem]">
+        <div class="lg:flex lg:mb-8 lg:justify-between lg:items-center">
+          <h1
+            class="uppercase mb-4 md:mb-0 lg:mb-0 font-thin text-center text-3xl"
+          >
+            our creations
+          </h1>
+          <span
+            class="border-solid lg:block hidden font-semibold border-[1px] cursor-pointer hover:bg-black hover:text-white lg:pt-2 transition-all duration-300 px-8 py-1 border-black uppercase text-[12px]"
+            >see all</span
+          >
+        </div>
+
+        <div class="flex justify-between flex-col items-center">
+          <div class="my-[1rem]">
+            <div
+              class="grid items-center justify-center sm:grid-cols-two lg:grid-cols-four sm:gap-[1.5rem] gap-y-[1rem]"
+            >
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-curiosity-f32cf9c7.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-curiosity-d5bd29a8.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-curiosity-d5bd29a8.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  the curiosity
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-deep-earth-d35ae09c.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-deep-earth-f0b09af3.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-deep-earth-f0b09af3.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  deep earth
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-fisheye-e627b7d9.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-fisheye-de2f99db.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-fisheye-de2f99db.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  fish eye
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-pocket-borealis-a3b5e13c.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-pocket-borealis-814c15ab.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-pocket-borealis-814c15ab.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  pocket borealis
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-grid-0fc1898e.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-grid-43161770.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-grid-43161770.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  the grid
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-soccer-team-b6f8a5fd.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-soccer-team-a07432dc.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-soccer-team-a07432dc.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[100px] lg:w-[200px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  soccer team vr
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-night-arcade-d2897e17.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-night-arcade-f5304b1d.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-night-arcade-f5304b1d.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[50px] uppercase text-white font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  night arcade
+                </div>
+              </div>
+              <div class="relative group overflow-hidden">
+                <picture
+                  class="w-full group-hover:filter transition-all duration-200 group-hover:blur-[2px]"
+                >
+                  <source
+                    media="(min-width: 650px)"
+                    srcset="/FM-PRJ-4/assets/image-from-above-ed7af1c0.jpg "
+                  />
+                  <source
+                    media="(min-width: 465px)"
+                    srcset="/FM-PRJ-4/assets/image-from-above-bcb590f9.jpg "
+                  />
+                  <img
+                    class="w-full group-hover:scale-105 ease-in transition-all duration-300"
+                    src="/FM-PRJ-4/assets/image-from-above-bcb590f9.jpg"
+                  />
+                </picture>
+                <div
+                  class="bg-gradient-to-bl from-transparent via-transparent to-black absolute w-full inset-0"
+                ></div>
+                <div
+                  class="absolute bottom-3 left-3 w-[110px] uppercase text-white lg:w-[200px] font-thin group-hover:tracking-wider transition-all lg:text-[2rem] duration-300 text-[1.3rem]"
+                >
+                  from up above vr
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="border-solid mt-[1rem] lg:hidden font-semibold border-[1px] cursor-pointer hover:bg-black hover:text-white transition-all duration-300 px-8 py-1 border-black uppercase text-[12px]"
+            >see all</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section
+      class="xl:mt-[6rem] font-alata mt-[3rem] h-[80vh] lg:px-[5rem] lg:h-[30vh] bg-black"
+    >
+      <div
+        class="mt-[2rem] lg:w-full lg:mx-auto py-[2rem] justify-center items-center lg:justify-center lg:items-center lg:flex-row h-full flex flex-col"
+      >
+        <div
+          class="lg:flex h-[40vh] flex flex-col justify-between lg:w-[50%] lg:align-baseline lg:h-[14vh] lg:justify-between lg:flex-col"
+        >
+          <div class="mx-auto lg:mx-0 lg:ml-[0rem]">
+            <img src="/FM-PRJ-4/assets/logo-61f423a9.svg" alt="" />
+          </div>
+          <ul
+            class="flex mt-6 md:mt-0 lg:text-[.8rem] tracking-wider lg:flex-row justify-center lg:justify-between lg:w-[500px] lg:text-left items-center lg:space-y-0 space-y-3 flex-col"
+          >
+            <li class="lg:w-[400px]">
+              <a
+                class="text-white capitalize transition-all duration-300"
+                href="#"
+                >about</a
+              >
+            </li>
+            <li class="lg:w-[400px]">
+              <a
+                class="text-white capitalize border-b-0 transition-all duration-500"
+                href="#"
+                >careers</a
+              >
+            </li>
+            <li class="lg:w-[400px]">
+              <a
+                class="text-white capitalize transition-all duration-200 hover:translate-y-[2px]"
+                href="#"
+                >events</a
+              >
+            </li>
+            <li class="lg:w-[400px]">
+              <a
+                class="text-white capitalize transition-all duration-200"
+                href="#"
+                >products</a
+              >
+            </li>
+            <li class="lg:w-[400px]">
+              <a
+                class="text-white capitalize transition-all duration-200 hover:backdrop-blur-sm hover:bg-violet-600"
+                href="#"
+                >support</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="lg:flex lg:items-end h-[13vh] mt-[3rem] lg:mt-0 lg:align-baseline justify-between items-center flex flex-col lg:w-[50%] lg:h-[14vh] lg:justify-between lg:flex-col"
+        >
+          <div
+            class="flex justify-evenly lg:w-[30%] sm:w-[50%] w-[70%] items-center"
+          >
+            <img
+              class="hover:translate-y-2 transition-all duration-200"
+              src="/FM-PRJ-4/assets/icon-facebook-4e7e7f56.svg"
+              alt="facebook"
+            />
+            <img
+              class="hover:translate-y-2 transition-all duration-200"
+              src="/FM-PRJ-4/assets/icon-instagram-25ecd746.svg"
+              alt="facebook"
+            />
+            <img
+              class="hover:translate-y-2 transition-all duration-200"
+              src="/FM-PRJ-4/assets/icon-pinterest-8424ffc4.svg"
+              alt="facebook"
+            />
+            <img
+              class="hover:translate-y-2 transition-all duration-200"
+              src="/FM-PRJ-4/assets/icon-twitter-f5e49159.svg"
+              alt="facebook"
+            />
+          </div>
+          <div class="text-center lg:mr-4">
+            <h2 class="text-f-color text-[14px] font-bold">
+              &copy; 2021 | Loopstudios.All rights reserved.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/hari-prasanth-s-4979a12a5">hari prasanth</a>.
+  </div>
+
+    
+  </body>
+</html>
